@@ -1,0 +1,135 @@
+body {
+    font-family: NanumGothic,sans-serif;
+    font-size: .75em;
+    color: #666;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+#header{
+    background-color: #4d6c8b;
+    
+}
+
+#left_nav{
+    color: #999;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    font-size: 12px;
+    padding-left: 5px;
+    margin: 0;
+    z-index: 1000;
+}
+#create{
+    float: left;
+    margin-right: 1.5em;
+    margin-top: 1.3em;
+}
+
+#open_home{
+    margin-right: 19.8px;
+    padding-right: 6px;
+    margin-top: 11.8px;
+}
+#open_home span{
+    color: #2ecc71;
+}
+#open_home a{
+    color: #ccc;
+    height: 20px;
+}
+#create_img{
+    background-image: url(./icon_module.png);
+}
+
+#title{
+    padding-top: 80px;
+    
+}
+#header_title{
+    margin: 0;
+    font-size: 2.4em;
+    color: #fff
+}
+#header_sub_title{
+    margin: 0;
+    padding: 8 0 8 0;
+    color: #a3bfdb;
+    font-size: 1.1em;
+    padding: 0 10;
+}
+
+#main_nav{
+    font-size: 100%;
+    vertical-align: baseline;
+}
+#main_nav_list{
+    color: #fff;
+    padding: 14.4px;
+    margin: 0;
+    text-align: center;
+}
+.main_nav_font{
+    color: #ddd;
+    font-size: 1.2em;
+    padding: 10px 15px;
+}
+
+
+.center{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
+#create{
+    background-image: url(./icon_module.png);
+}
+#web_location{
+    height: 40px;
+    background-color: #eee;
+}
+#web_location_nav{
+    position: relative;
+    vertical-align: middle;
+    height: 40px;
+    line-height: 40px;
+}
+#web_location_nav > span{
+    padding-left: 15px;
+    color: #999;
+}
+.wrapper{
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.hentry{
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 40px;
+    padding-right: 35px;
+    padding-bottom: 40px;
+    padding-left: 35px;
+    height: 8169.410px;
+    width: 770px;
+}
+h2{
+    border-bottom: 1px dotted #858585;
+}
+p{
+    margin: 1em 0;
+    
+}
+h3{
+    font: 1.6em;
+    font-weight: bold;
+    color: #333;
+}
